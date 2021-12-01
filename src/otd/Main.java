@@ -315,7 +315,7 @@ public class Main extends JavaPlugin {
             Bukkit.getLogger().log(Level.SEVERE, "Load OTD.pdf error...");
         }
     }
-
+   /* Since we cant find it, fuck it
     private void loadAdvancement() {
         File out = new File(Main.instance.getDataFolder(), "OhTheDungeonAdvancement.jar");
         try(InputStream in = Main.instance.getResource("OhTheDungeonAdvancement.jar");
@@ -337,7 +337,7 @@ public class Main extends JavaPlugin {
             Bukkit.getLogger().log(Level.SEVERE, "Load Advancements error...");
         }
     }
-    
+     */
     private BukkitRunnable update_check_task_id;
     private final int RESOURCE_ID = 76437;
     private void asyncUpdateChecker() {
